@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Races",
         "groups": [
           {
             "group": "Get Started",
@@ -20,44 +20,84 @@
               "quickstart",
               "development"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "Jujutsu Sorcerer",
+        "groups": [
+          {
+            "group": "Creating a Jujutsu Sorcerer",
+            "pages": [
+              "class/class-traits"
+            ]
           },
           {
-            "group": "Essentials",
+            "group": "Class Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "class/lvl1-unarmored-defense",
+              "class/lvl1-unarmored-movement",
+              "class/lvl1-cursed-energy",
+              "class/lvl1-cursed-technique-or-sorcerer-path",
+              "class/lvl2-martial-arts",
+              "class/lvl2-cursed-martial-arts",
+			  "class/lvl2-cursed-energy-enhancement",
+              "class/lvl3-jujutsu-schools",
+              "class/lvl3-sorcerer-training",
+              "class/lvl4-ability-score-improvement",
+			  "class/lvl5-extra-attack",
+			  "class/lvl5-binding-vow",
+			  "class/lvl6-curse-empowered-strikes",
+			  "class/lvl7-resistant",
+			  "class/lvl7-advanced-studies-or-advanced-sorcerer-training",
+			  "class/lvl9-cursed-energy-recovery",
+			  "class/lvl11-creative-energy-usage",
+			  "class/lvl11-exorcise",
+			  "class/lvl13-maximum-output-or-explosive-blow",
+			  "class/lvl14-school-graduation",
+			  "class/lvl17-near-the-pinnacle"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Cursed Techniques",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Cursed Techniques",
             "pages": [
-              "api-reference/introduction"
+              "cursed-techniques/ten-shadows-technique",
+              "cursed-techniques/shrine",
+              "cursed-techniques/limitless",
+              "cursed-techniques/straw-doll-technique",
+              "cursed-techniques/disaster-flames",
+              "cursed-techniques/disaster-plants",
+              "cursed-techniques/ratio",
+              "cursed-techniques/idle-transfiguration",
+              "cursed-techniques/moon-dregs",
+              "cursed-techniques/puppet-manipulation",
+              "cursed-techniques/cursed-speech",
+              "cursed-techniques/tool-manipulation"
             ]
-          },
+          }
+        ]
+	  },
+      {
+        "tab": "Sorcerer Paths",
+        "groups": [
           {
-            "group": "Endpoint Examples",
+            "group": "Sorcerer Paths",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "races/cyborg"
             ]
           }
         ]
       },
       {
-        "tab": "Races",
+        "tab": "Binding Vows",
         "groups": [
           {
-            "group": "Races",
+            "group": "Binding Vows",
             "pages": [
               "races/cyborg"
             ]
@@ -68,19 +108,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Original Wiki",
+          "href": "https://www.dandwiki.com/wiki/Jujutsu_Kaisen_(5e_Campaign_Setting)",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -88,25 +118,5 @@
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
