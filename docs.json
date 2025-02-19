@@ -29,33 +29,33 @@
           {
             "group": "Creating a Jujutsu Sorcerer",
             "pages": [
-              "class/class-traits"
+              "jujutsu-sorcerer/class-traits"
             ]
           },
           {
             "group": "Class Features",
             "pages": [
-              "class/lvl1-unarmored-defense",
-              "class/lvl1-unarmored-movement",
-              "class/lvl1-cursed-energy",
-              "class/lvl1-cursed-technique-or-sorcerer-path",
-              "class/lvl2-martial-arts",
-              "class/lvl2-cursed-martial-arts",
-			  "class/lvl2-cursed-energy-enhancement",
-              "class/lvl3-jujutsu-schools",
-              "class/lvl3-sorcerer-training",
-              "class/lvl4-ability-score-improvement",
-			  "class/lvl5-extra-attack",
-			  "class/lvl5-binding-vow",
-			  "class/lvl6-curse-empowered-strikes",
-			  "class/lvl7-resistant",
-			  "class/lvl7-advanced-studies-or-advanced-sorcerer-training",
-			  "class/lvl9-cursed-energy-recovery",
-			  "class/lvl11-creative-energy-usage",
-			  "class/lvl11-exorcise",
-			  "class/lvl13-maximum-output-or-explosive-blow",
-			  "class/lvl14-school-graduation",
-			  "class/lvl17-near-the-pinnacle"
+              "jujutsu-sorcerer/lvl1-unarmored-defense",
+              "jujutsu-sorcerer/lvl1-unarmored-movement",
+              "jujutsu-sorcerer/lvl1-cursed-energy",
+              "jujutsu-sorcerer/lvl1-cursed-technique-or-sorcerer-path",
+              "jujutsu-sorcerer/lvl2-martial-arts",
+              "jujutsu-sorcerer/lvl2-cursed-martial-arts",
+			  "jujutsu-sorcerer/lvl2-cursed-energy-enhancement",
+              "jujutsu-sorcerer/lvl3-jujutsu-schools",
+              "jujutsu-sorcerer/lvl3-sorcerer-training",
+              "jujutsu-sorcerer/lvl4-ability-score-improvement",
+			  "jujutsu-sorcerer/lvl5-extra-attack",
+			  "jujutsu-sorcerer/lvl5-binding-vow",
+			  "jujutsu-sorcerer/lvl6-curse-empowered-strikes",
+			  "jujutsu-sorcerer/lvl7-resistant",
+			  "jujutsu-sorcerer/lvl7-advanced-studies-or-advanced-sorcerer-training",
+			  "jujutsu-sorcerer/lvl9-cursed-energy-recovery",
+			  "jujutsu-sorcerer/lvl11-creative-energy-usage",
+			  "jujutsu-sorcerer/lvl11-exorcise",
+			  "jujutsu-sorcerer/lvl13-maximum-output-or-explosive-blow",
+			  "jujutsu-sorcerer/lvl14-school-graduation",
+			  "jujutsu-sorcerer/lvl17-near-the-pinnacle"
             ]
           }
         ]
@@ -79,7 +79,19 @@
               "cursed-techniques/cursed-speech",
               "cursed-techniques/tool-manipulation",
               "cursed-techniques/construction",
-              "cursed-techniques/blood-manipulation"
+              "cursed-techniques/blood-manipulation",
+              "cursed-techniques/black-bird-manipulation",
+              "cursed-techniques/boogie-woogie",
+              "cursed-techniques/sound-amplification",
+              "cursed-techniques/rot-technique",
+              "cursed-techniques/cursed-spirit-manipulation",
+              "cursed-techniques/cloning-technique",
+              "cursed-techniques/brain-technique",
+              "cursed-techniques/auspicious-beast-summon",
+              "cursed-techniques/seance-technique",
+              "cursed-techniques/inverse",
+              "cursed-techniques/gravestone-technique",
+              "cursed-techniques/projection-sorcery"
             ]
           }
         ]
