@@ -10,54 +10,100 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
-      {
-        "tab": "Races",
+	  {
+        "tab": "Introduction",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction/character-creation",
+              "introduction/faq"
+            ]
+          }
+        ]
+      },
+	  {
+        "tab": "Races",
+        "groups": [
+          {
+            "group": "Human",
+            "pages": [
+              "races/human/human-traits"
+            ]
+          },
+		  {
+            "group": "Cursed Vessel",
+            "pages": [
+              "races/cursed-vessel/cursed-vessel-traits",
+              "races/cursed-vessel/reincarnated",
+              "races/cursed-vessel/living-vessel",
+              "races/cursed-vessel/symbiotic-vessel",
+              "races/cursed-vessel/incomplete-vessel"
+            ]
+          },
+		  {
+            "group": "Cursed Spirit",
+            "pages": [
+              "races/cursed-spirit/cursed-spirit-traits",
+              "races/cursed-spirit/cursed-spirit-grades",
+              "races/cursed-spirit/body-modifications-list",
+              "races/cursed-spirit/vengeful-cursed-spirit",
+              "races/cursed-spirit/imaginary-vengeful-cursed-spirit",
+              "races/cursed-spirit/disease-cursed-spirit"
+            ]
+          },
+		  {
+            "group": "Cursed Corpse",
+            "pages": [
+              "races/cursed-corpse/cursed-corpse-traits",
+              "races/cursed-corpse/reincarnated-corpse",
+              "races/cursed-corpse/abrupt-mutation-Cursed-corpse"
+            ]
+          },
+		  {
+            "group": "Death Painting",
+            "pages": [
+              "races/death-painting/death-painting-traits",
+              "races/death-painting/amalgamation",
+              "races/death-painting/near-human",
+              "races/death-painting/near-curse"
             ]
           }
         ]
       },
       {
-        "tab": "Jujutsu Sorcerer",
+        "tab": "Backgrounds",
         "groups": [
           {
-            "group": "Creating a Jujutsu Sorcerer",
+            "group": "Backgrounds",
             "pages": [
-              "jujutsu-sorcerer/class-traits"
-            ]
-          },
-          {
-            "group": "Class Features",
-            "pages": [
-              "jujutsu-sorcerer/lvl1-unarmored-defense",
-              "jujutsu-sorcerer/lvl1-unarmored-movement",
-              "jujutsu-sorcerer/lvl1-cursed-energy",
-              "jujutsu-sorcerer/lvl1-cursed-technique-or-sorcerer-path",
-              "jujutsu-sorcerer/lvl2-martial-arts",
-              "jujutsu-sorcerer/lvl2-cursed-martial-arts",
-			  "jujutsu-sorcerer/lvl2-cursed-energy-enhancement",
-              "jujutsu-sorcerer/lvl3-jujutsu-schools",
-              "jujutsu-sorcerer/lvl3-sorcerer-training",
-              "jujutsu-sorcerer/lvl4-ability-score-improvement",
-			  "jujutsu-sorcerer/lvl5-extra-attack",
-			  "jujutsu-sorcerer/lvl5-binding-vow",
-			  "jujutsu-sorcerer/lvl6-curse-empowered-strikes",
-			  "jujutsu-sorcerer/lvl7-resistant",
-			  "jujutsu-sorcerer/lvl7-advanced-studies-or-advanced-sorcerer-training",
-			  "jujutsu-sorcerer/lvl9-cursed-energy-recovery",
-			  "jujutsu-sorcerer/lvl11-creative-energy-usage",
-			  "jujutsu-sorcerer/lvl11-exorcise",
-			  "jujutsu-sorcerer/lvl13-maximum-output-or-explosive-blow",
-			  "jujutsu-sorcerer/lvl14-school-graduation",
-			  "jujutsu-sorcerer/lvl17-near-the-pinnacle"
+              "backgrounds/sorcerer-student",
+              "backgrounds/sorcerer-family-member",
+              "backgrounds/new-shadow-style-student",
+              "backgrounds/reincarnated",
+              "backgrounds/negative-manifestation",
+              "backgrounds/curse-user"
             ]
           }
+        ]
+      },
+      {
+        "tab": "Classes",
+        "groups": [
+          {
+            "group": "Jujutsu Sorcerer",
+            "pages": [
+              "classes/jujutsu-sorcerer/class-traits",
+              "classes/jujutsu-sorcerer/class-features"
+            ]
+          },
+		  {
+			"group": "Heavenly Restriction",
+            "pages": [
+              "classes/heavenly-restriction/class-traits",
+              "classes/heavenly-restriction/class-features"
+            ]
+		  }
         ]
       },
       {
@@ -66,50 +112,68 @@
           {
             "group": "Cursed Techniques",
             "pages": [
-                "cursed-techniques/auspicious-beast-summon",
-                "cursed-techniques/black-bird-manipulation",
-                "cursed-techniques/blazing-courage",
-                "cursed-techniques/boogie-woogie",
-                "cursed-techniques/blood-manipulation",
-                "cursed-techniques/brain-technique",
-                "cursed-techniques/claw-technique",
-                "cursed-techniques/cloning-technique",
-                "cursed-techniques/construction",
-                "cursed-techniques/contractual-re-creation",
-                "cursed-techniques/cursed-doll-creation",
-                "cursed-techniques/cursed-speech",
-                "cursed-techniques/cursed-spirit-manipulation",
-                "cursed-techniques/disaster-flames",
-                "cursed-techniques/disaster-plants",
-                "cursed-techniques/disaster-tides",
-                "cursed-techniques/earth-arms",
-                "cursed-techniques/gravestone-technique",
-                "cursed-techniques/helicopter-hair",
-                "cursed-techniques/ice-formation",
-                "cursed-techniques/immortality",
-                "cursed-techniques/inverse",
-                "cursed-techniques/idle-transfiguration",
-                "cursed-techniques/jet-plane-hair",
-                "cursed-techniques/limitless",
-                "cursed-techniques/love-rendezvous",
-                "cursed-techniques/missile-fists",
-                "cursed-techniques/moon-dregs",
-                "cursed-techniques/mythical-beast-amber",
-                "cursed-techniques/pain-killer",
-                "cursed-techniques/paralyzing-sight",
-                "cursed-techniques/picture-alteration",
-                "cursed-techniques/projection-sorcery",
-                "cursed-techniques/puppet-manipulation",
-                "cursed-techniques/ratio",
-                "cursed-techniques/rot-technique",
-                "cursed-techniques/seance-technique",
-                "cursed-techniques/sound-amplification",
-                "cursed-techniques/straw-doll-technique",
-                "cursed-techniques/sugar-manipulation",
-                "cursed-techniques/ten-shadows-technique",
-                "cursed-techniques/the-law",
-                "cursed-techniques/tool-manipulation",
-                "cursed-techniques/vengeful-cursed-spirit"
+              "cursed-techniques/antigravity-system",
+              "cursed-techniques/auspicious-beast-summon",
+              "cursed-techniques/black-bird-manipulation",
+              "cursed-techniques/blazing-courage",
+              "cursed-techniques/blood-manipulation",
+              "cursed-techniques/boogie-woogie",
+              "cursed-techniques/brain-technique",
+              "cursed-techniques/claw-technique",
+              "cursed-techniques/cloning-technique",
+              "cursed-techniques/comedian",
+              "cursed-techniques/construction",
+              "cursed-techniques/contractual-re-creation",
+              "cursed-techniques/cursed-doll-creation",
+              "cursed-techniques/cursed-energy-discharge",
+              "cursed-techniques/cursed-illusions",
+              "cursed-techniques/cursed-speech",
+              "cursed-techniques/cursed-spirit-manipulation",
+              "cursed-techniques/disaster-flames",
+              "cursed-techniques/disaster-plants",
+              "cursed-techniques/disaster-tides",
+              "cursed-techniques/drill-hair",
+              "cursed-techniques/earth-arms",
+              "cursed-techniques/earthen-insect-trance",
+              "cursed-techniques/explosive-flesh",
+              "cursed-techniques/g-warstaff",
+              "cursed-techniques/gravestone-technique",
+              "cursed-techniques/hakuna-laana",
+              "cursed-techniques/heart-catch",
+              "cursed-techniques/helicopter-hair",
+              "cursed-techniques/ice-formation",
+              "cursed-techniques/idle-transfiguration",
+              "cursed-techniques/immortality",
+              "cursed-techniques/inverse",
+              "cursed-techniques/jet-plane-hair",
+              "cursed-techniques/limitless",
+              "cursed-techniques/love-rendezvous",
+              "cursed-techniques/missile-fists",
+              "cursed-techniques/moon-dregs",
+              "cursed-techniques/mythical-beast-amber",
+              "cursed-techniques/pain-killer",
+              "cursed-techniques/paralyzing-sight",
+              "cursed-techniques/picture-alteration",
+              "cursed-techniques/private-pure-love-train",
+              "cursed-techniques/projection-sorcery",
+              "cursed-techniques/puppet-manipulation",
+              "cursed-techniques/ratio",
+              "cursed-techniques/rot-technique",
+              "cursed-techniques/scorpion-hair",
+              "cursed-techniques/seance-technique",
+              "cursed-techniques/sky-manipulation",
+              "cursed-techniques/solo-forbidden-area",
+              "cursed-techniques/sound-amplification",
+              "cursed-techniques/star-dictator",
+              "cursed-techniques/star-rage",
+              "cursed-techniques/straw-doll-technique",
+              "cursed-techniques/sugar-manipulation",
+              "cursed-techniques/technique-extinguishment",
+              "cursed-techniques/teleportation",
+              "cursed-techniques/ten-shadows-technique",
+              "cursed-techniques/the-law",
+              "cursed-techniques/tool-manipulation",
+              "cursed-techniques/vengeful-cursed-spirit"
             ]
           }
         ]
@@ -120,7 +184,16 @@
           {
             "group": "Sorcerer Paths",
             "pages": [
-              "races/cyborg"
+              "sorcerer-paths/barrier-master",
+              "sorcerer-paths/cursed-corpse-expert",
+              "sorcerer-paths/cursed-energy-manipulator",
+              "sorcerer-paths/low-reserves-sorcerer",
+              "sorcerer-paths/master-of-vows",
+              "sorcerer-paths/new-shadow-style-master",
+              "sorcerer-paths/positive-energy-master",
+              "sorcerer-paths/shikigami-master",
+              "sorcerer-paths/taijutsu-master",
+              "sorcerer-paths/weapon-master"
             ]
           }
         ]
@@ -131,7 +204,49 @@
           {
             "group": "Binding Vows",
             "pages": [
-              "races/cyborg"
+              "binding-vows/vows-with-oneself",
+              "binding-vows/vows-with-others",
+              "binding-vows/binding-vow-rules"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Domain Expansion",
+        "groups": [
+          {
+            "group": "Domain Expansion",
+            "pages": [
+              "domain-expansion/domain-expansion",
+              "domain-expansion/domain-basics",
+              "domain-expansion/domain-refinement",
+              "domain-expansion/domain-properties",
+              "domain-expansion/breaking-a-domain",
+              "domain-expansion/domain-battle",
+              "domain-expansion/barrierless-domain",
+              "domain-expansion/domain-expansions-examples"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Feats",
+        "groups": [
+          {
+            "group": "Feats",
+            "pages": [
+              "feats/background-feats",
+              "feats/barrier-techniques-feats",
+              "feats/binding-vow-feats",
+              "feats/body-feats",
+              "feats/cursed-creations-feats",
+              "feats/cursed-energy-feats",
+              "feats/cursed-energy-manipulation-feats",
+              "feats/cursed-technique-feats",
+              "feats/reverse-cursed-energy-feats",
+              "feats/taijutsu-feats",
+              "feats/taijutsu-and-weapon-feats",
+              "feats/weapon-feats"
             ]
           }
         ]
